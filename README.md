@@ -75,6 +75,9 @@ Open command prompt and type "npm run dev"
   - This will start the local server in your browser at http://localhost:3000
 You can now vote using this Application.
 
+#### N.B
+If you get a "lite-server" absence error, run this command "npm install lite-server -g".
+
 ### How to vote with the application:
 - Select an imported account in metamask then reload the page.
 - Select the candidate you wish to vote for from the 'Select  Candidate' drop down option.
