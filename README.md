@@ -85,6 +85,6 @@ You can now vote using this Application.
 - You can repeat the voting process two more times with the unused pins, but after that you must go back to Step 4.
 
 # Special Thanks must be extended to Gregory from DAPP University whose tutorials and code repository were key to this project
-The link to his website is: https://www.dappuniversity.com/
-The link to the code repository that served as guidance is: https://github.com/dappuniversity/election
+ - The link to his website is: https://www.dappuniversity.com/
+ - The link to the code repository that served as guidance is: https://github.com/dappuniversity/election
 
