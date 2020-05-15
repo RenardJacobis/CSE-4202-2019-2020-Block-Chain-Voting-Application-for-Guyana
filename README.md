@@ -1,6 +1,6 @@
 # CSE 4202(2019-2020) Block-Chain-Voting-Application-for-Guyana
 This project is a fulfillment of a course requirement for the University of Guyana in the year 2019-2020. 
-It entails building a block chain based application to allowing voting in the country of Guyana.
+It entails building a block chain-based application to allowing voting in the country of Guyana.
 
 ## Background
 ### Why is it bad to build a voting application with centralized application?
@@ -23,14 +23,14 @@ It entails building a block chain based application to allowing voting in the co
  - Makes use of the Ethereum Block chain network
  - The election is deployed to the Block chain with "Smart Contracts.
  - Smart Contracts can be written in a language called "Solidity".
- - This project consists of a front end application rendered through the browser and connected to a local block chain.
+ - This project consists of a front-end application rendered through the browser and connected to a local block chain.
  
  ## Design of the Application
  - The front end displays 4 sample candidates that can be voted for.
  - The voter selects from a drop down the candidate of their choice.
  - The voter the enters a secure pin.
-    - In the real world application of this project, these pins would be preset and issued to individual voters.
-    - The pin authroizes the user to vote with any unused account on the blockchain.
+    - In the real-world application of this project, these pins would be preset and issued to individual voters.
+    - The pin authorizes the user to vote with any unused account on the blockchain.
     - The pin can only be used once.
   - The voter then selects the 'Vote' button and a new page loads which allows them to select another button - "View Election Results",
   which displays the updated vote count after the voter would have voted.
@@ -38,12 +38,12 @@ It entails building a block chain based application to allowing voting in the co
   
 # Instructions for running this project
 
-## Step 1: Install the Different External Depedencies
+## Step 1: Install the Different External Dependencies
 - Install node.js which can be found at https://nodejs.org/en/
 - Install truffle by going to the terminal and typing "npm install -g truffle@v4.1.14"
     - Truffle allows us to build smart contracts and deploy them to the block chain. 
 - Install Ganache which can be downloaded at https://www.trufflesuite.com/ganache
-    - Ganache is an in memory block chain that will be used to test out the application.
+    - Ganache is an in-memory block chain that will be used to test out the application.
 - Install the "metamask" extension in google chrome which can be found at https://chrome.google.com/webstore/search/metamask
     - Ensure that metamask is enabled after installing it in chrome.
     
@@ -59,12 +59,12 @@ running on a block chain in local memory.
 ## Step 4: Compile and Deploy the Election Smart Contract
 Open command prompt in the project directory and type "truffle migrate --reset".
 #### N.B
-You must run this command everytime Ganache is restarted.
+You must run this command every time Ganache is restarted.
 
 ## Step 5: Configure Metamask
  - Sign up for an account on metamask.
  - Login and connect Metamask to your local blockchain:
-    - Create a custom rpc and input the url available in the Ganache interface - "http://127.0.0.1:7545"
+    - Create a custom rpc and input the URL available in the Ganache interface - "http://127.0.0.1:7545"
     - Open "Settings", click on "Connections" and add "Localhost" as a connection.
 - Now import an account from your Ganache block chain by clicking on the key icon in the Ganache UI and copying the private key
 to the Metamask extension, and then clicking save.
