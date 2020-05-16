@@ -28,7 +28,7 @@ It entails building a block chain-based application to allowing voting in the co
  ## Design of the Application
  - The front end displays 4 sample candidates that can be voted for.
  - The voter selects from a drop down the candidate of their choice.
- - The voter the enters a secure pin.
+ - The voter then enters a secure pin.
     - In the real-world application of this project, these pins would be preset and issued to individual voters.
     - The pin authorizes the user to vote with any unused account on the blockchain.
     - The pin can only be used once.
@@ -59,7 +59,7 @@ running on a block chain in local memory.
 ## Step 4: Compile and Deploy the Election Smart Contract
 Open command prompt in the project directory and type "truffle migrate --reset".
 #### N.B
-You must run this command every time Ganache is restarted.
+You must run this command every time Ganache is restartedor the smart contract is updated.
 
 ## Step 5: Configure Metamask
  - Sign up for an account on metamask.
@@ -85,7 +85,7 @@ If you get a "lite-server" absence error, run this command "npm install lite-ser
       - Secure pins available for testing are: 2083, 3013, 2003.
 - Click the "Vote" button.
 - On the newly loaded page, click the "View Election Results" Button to see the updated vote counts.
-- You can repeat the voting process two more times with the unused pins, but after that you must go back to Step 4.
+- You can repeat the voting process two more times with the unused pins and two different accounts from the ganache block chain, but after that you must go back to Step 4.
 
 # Special Thanks must be extended to Gregory from DAPP University whose tutorials and code repository were key to this project
  - The link to his website is: https://www.dappuniversity.com/
