@@ -57,7 +57,7 @@ Ganache can be started through the GUI client that came with its installation. O
 running on a block chain in local memory.
 
 ## Step 4: Compile and Deploy the Election Smart Contract
-Open command prompt in the project directory and type "truffle migrate --reset".
+Open command prompt in the project directory and type "truffle migrate --reset" or "truffle.cmd migrate --reset".
 #### N.B
 You must run this command every time Ganache is restartedor the smart contract is updated.
 
